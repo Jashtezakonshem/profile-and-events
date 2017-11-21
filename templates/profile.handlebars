@@ -1,0 +1,11 @@
+<p><span class="description">id: </span>{{id}}</p>
+<p><span class="description">registration date: </span> {{$toLocalDate registeredAt}}</p>
+<p><span class="description">updated at: </span> {{$toLocalDate updatedAt}}</p>
+<div>
+    <span class="description">favourite products:</span>
+    <ul>
+        {{#each extended.favourite_products as | product |}}
+            <li>{{product}}</li>
+        {{/each}}
+    </ul>
+</div>

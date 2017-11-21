@@ -1,0 +1,161 @@
+[
+  {
+    "id": "b37b080f-8ee1-499d-b77a-27fe7e31f1f6",
+    "customerId": "75c61860-5ba0-45ed-b4c5-1eed0dc376b9",
+    "bringBackProperties": null,
+    "type": "openedTicket",
+    "context": "CONTACT_CENTER",
+    "date": "2017-11-10T14:43:02.432+0000",
+    "properties": {
+      "ticketId": "11",
+      "subject": "Test 11-10",
+      "text": "----------------------------------------------\n\nGiovanni Colangelo, Nov 10, 16:43\n\nCiao",
+      "extraProperties": {}
+    },
+    "contextInfo": {
+      "client": {
+        "ip": "93.94.36.34",
+        "userAgent": "axios/0.15.3"
+      }
+    },
+    "registeredAt": "2017-11-10T14:43:02.876+0000",
+    "updatedAt": "2017-11-10T14:43:02.876+0000",
+    "tracking": null
+  },
+  {
+    "id": "e9d6fafc-6138-498a-9f88-1472327f68ff",
+    "customerId": "75c61860-5ba0-45ed-b4c5-1eed0dc376b9",
+    "bringBackProperties": null,
+    "type": "openedTicket",
+    "context": "CONTACT_CENTER",
+    "date": "2017-10-26T12:24:58.010+0000",
+    "properties": {
+      "ticketId": "10",
+      "subject": "Test again app",
+      "text": "----------------------------------------------\n\nGiovanni Colangelo, Oct 26, 15:24\n\nHi",
+      "extraProperties": {}
+    },
+    "contextInfo": {
+      "client": {
+        "ip": "93.94.36.34",
+        "userAgent": "axios/0.15.3"
+      }
+    },
+    "registeredAt": "2017-10-26T12:24:58.561+0000",
+    "updatedAt": "2017-10-26T12:24:58.561+0000",
+    "tracking": null
+  },
+  {
+    "id": "09411e37-eae6-4192-bf70-10730c95157c",
+    "customerId": "75c61860-5ba0-45ed-b4c5-1eed0dc376b9",
+    "bringBackProperties": null,
+    "type": "formCompiled",
+    "context": "WEB",
+    "date": "2017-10-13T08:49:52.000+0000",
+    "properties": {
+      "formName": "Preference Center Maison",
+      "formId": "MaisonPreferenceCenter"
+    },
+    "contextInfo": {
+      "client": {
+        "ip": "93.94.36.34",
+        "userAgent": null
+      }
+    },
+    "registeredAt": "2017-10-13T08:49:53.008+0000",
+    "updatedAt": "2017-10-13T08:49:53.008+0000",
+    "tracking": null
+  },
+  {
+    "id": "ee9a3ce9-4711-418b-bbf1-d7caf0a8b5f5",
+    "customerId": "75c61860-5ba0-45ed-b4c5-1eed0dc376b9",
+    "bringBackProperties": null,
+    "type": "formCompiled",
+    "context": "WEB",
+    "date": "2017-10-13T08:45:51.000+0000",
+    "properties": {
+      "formName": "Preference Center Maison",
+      "formId": "MaisonPreferenceCenter"
+    },
+    "contextInfo": {
+      "client": {
+        "ip": "93.94.36.34",
+        "userAgent": null
+      }
+    },
+    "registeredAt": "2017-10-13T08:45:51.177+0000",
+    "updatedAt": "2017-10-13T08:45:51.177+0000",
+    "tracking": null
+  },
+  {
+    "id": "a2676b94-90eb-474f-ae22-48d8ed47c082",
+    "customerId": "75c61860-5ba0-45ed-b4c5-1eed0dc376b9",
+    "bringBackProperties": null,
+    "type": "campaignSent",
+    "context": "DIGITAL_CAMPAIGN",
+    "date": "2017-10-13T08:18:50.000+0000",
+    "properties": {
+      "subscriberId": "75c61860-5ba0-45ed-b4c5-1eed0dc376b9",
+      "campaignSubject": "Welcome to Maison Contactlab",
+      "campaignName": "Welcome email",
+      "campaignTags": [
+        "ECOMMERCE",
+        "WELCOME"
+      ],
+      "channel": "EMAIL"
+    },
+    "contextInfo": {
+      "client": {
+        "ip": "93.94.36.34",
+        "userAgent": null
+      }
+    },
+    "registeredAt": "2017-10-13T08:18:48.702+0000",
+    "updatedAt": "2017-10-13T08:18:48.702+0000",
+    "tracking": null
+  },
+  {
+    "id": "8549ea52-f31d-474a-9eb7-55836e646432",
+    "customerId": "75c61860-5ba0-45ed-b4c5-1eed0dc376b9",
+    "bringBackProperties": null,
+    "type": "campaignSubscribed",
+    "context": "WEB",
+    "date": "2017-10-13T08:18:48.000+0000",
+    "properties": {
+      "subscriberId": "75c61860-5ba0-45ed-b4c5-1eed0dc376b9",
+      "listId": "NEWSLETTER",
+      "listName": "MAISON NEWSLETTER",
+      "channel": "EMAIL"
+    },
+    "contextInfo": {
+      "client": {
+        "ip": "93.94.36.34",
+        "userAgent": null
+      }
+    },
+    "registeredAt": "2017-10-13T08:18:47.619+0000",
+    "updatedAt": "2017-10-13T08:18:47.619+0000",
+    "tracking": null
+  },
+  {
+    "id": "dda780c2-f0a7-4033-97ba-41b3b9c97b82",
+    "customerId": "75c61860-5ba0-45ed-b4c5-1eed0dc376b9",
+    "bringBackProperties": null,
+    "type": "formCompiled",
+    "context": "WEB",
+    "date": "2017-10-13T08:18:47.000+0000",
+    "properties": {
+      "formName": "Register Subscription Maison",
+      "formId": "RegisterNewsletterMaison"
+    },
+    "contextInfo": {
+      "client": {
+        "ip": "93.94.36.34",
+        "userAgent": null
+      }
+    },
+    "registeredAt": "2017-10-13T08:18:47.539+0000",
+    "updatedAt": "2017-10-13T08:18:47.539+0000",
+    "tracking": null
+  }
+]

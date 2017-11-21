@@ -1,0 +1,11 @@
+.hub-container {
+  margin: auto;
+  position: absolute;
+  width: 320px;
+  max-width: 320px;
+  min-width: 320px;
+}
+
+.description {
+  font-weight: bold;
+}
