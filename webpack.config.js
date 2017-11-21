@@ -14,7 +14,8 @@ module.exports = {
         new CopyWebpackPlugin([
             { from: 'index.html', to: 'index.html'},
             { from: 'data', to: 'data'},
-            { from: 'custom.css', to: 'custom.css'}
+            { from: 'custom.css', to: 'custom.css'},
+            { from: 'images', to: 'images'}
         ])
     ],
     resolve: {

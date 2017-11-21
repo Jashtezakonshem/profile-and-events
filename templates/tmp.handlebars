@@ -1,0 +1,25 @@
+<div>
+    <span class="description">favourite products:</span>
+    <ul>
+        {{#each extended.favourite_products as | product |}}
+            <li>{{product}}</li>
+        {{/each}}
+    </ul>
+</div>
+<div>
+    <span class="description">Like to Receive: </span>
+    <ul>
+        {{#each extended.like_to_receive as | like |}}
+            <li>{{like}}</li>
+        {{/each}}
+    </ul>
+</div>
+<p><span class="description">Preferred Boutique: </span> {{extendend.preferred_boutique}}</p>
+<div>
+    <span class="description">Interests: </span>
+    <ul>
+        {{#each extended.interests as | interest |}}
+            <li>{{interest}}</li>
+        {{/each}}
+    </ul>
+</div>

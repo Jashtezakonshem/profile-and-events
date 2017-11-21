@@ -1,38 +1,16 @@
 <p><span class="description">id: </span>{{id}}</p>
 <p><span class="description">Customer: </span>{{base.title}} {{base.firstName}} {{base.lastName}}</p>
-<p><span class="description">Date of Birth: </span>{{base.dob}}</p>
+<p><span class="description">Date of Birth: </span>{{$toLocalDate base.dob}}</p>
 <p><span class="description">Address: </span>{{base.address.street}}, {{base.address.province}}</p>
 <p><span class="description">Email: </span>{{base.contacts.email}}</p>
-{{#if base.pictureUrl}}
-    <p><span class="description">picture: </span></p>
-    <p>
+<p><span class="description">picture: </span></p>
+<p>
+    {{#if base.pictureUrl}}
         <img src="{{base.pictureUrl}}" alt="" class="img">
-    </p>
-{{/if}}
+    {{else}}
+        <img src="./images/no-image-available.jpg" alt="" class="img">
+    {{/if}}
+
+</p>
 <p><span class="description">registration date: </span> {{$toLocalDate registeredAt}}</p>
 <p><span class="description">updated at: </span> {{$toLocalDate updatedAt}}</p>
-<div>
-    <span class="description">favourite products:</span>
-    <ul>
-        {{#each extended.favourite_products as | product |}}
-            <li>{{product}}</li>
-        {{/each}}
-    </ul>
-</div>
-<div>
-    <span class="description">Like to Receive: </span>
-    <ul>
-        {{#each extended.like_to_receive as | like |}}
-            <li>{{like}}</li>
-        {{/each}}
-    </ul>
-</div>
-<p><span class="description">Preferred Boutique: </span> {{extendend.preferred_boutique}}</p>
-<div>
-    <span class="description">Interests: </span>
-    <ul>
-        {{#each extended.interests as | interest |}}
-            <li>{{interest}}</li>
-        {{/each}}
-    </ul>
-</div>
