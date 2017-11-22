@@ -1,3 +1,8 @@
 {{#each this as | event |}}
-    <p>{{event.id}}</p>
+    <div class="event-wrapper">
+	    <p><span class="description">Event Type: </span>{{event.type}}</p>
+	    <p><span class="description">Date: </span>{{$toLocalFullDate event.date}}</p>
+	    <p><span class="description">Property1: </span></p>
+	    <p><span class="description">Property2: </span></p>
+    </div>
 {{/each}}

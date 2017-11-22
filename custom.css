@@ -1,11 +1,25 @@
+body {
+  font-size: 13px;
+}
+
+p {
+  margin: 0;
+}
+
 .hub-container {
   margin: auto;
   position: absolute;
-  width: 320px;
-  max-width: 320px;
-  min-width: 320px;
+  width: 100%;
 }
 
 .description {
   font-weight: bold;
+}
+
+.event-wrapper {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #fff;
 }
